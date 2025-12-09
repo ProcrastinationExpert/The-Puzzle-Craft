@@ -1,0 +1,83 @@
+package gameLogic;
+
+public class Assets {
+    static String image(int code) {
+        switch (code) {
+            case 0: return "tile";
+            case 1: return "brick1";
+            case 2: return "brick2";
+            case 3: return "brick3";
+            case 4: return "brick4";
+            case 5: return "brick5";
+            case 6: return "grass1";
+            case 7: return "grass2";
+            case 8: return "dirt1";
+            case 9: return "dirt2";
+            case 16: return "log1";
+            case 17: return "log2";
+            case 18: return "log3";
+            case 10: return "stone1";
+            case 11: return "stone2";
+            case 12: return "stone3";
+            case 13: return "brick6";
+            case 14: return "brick7";
+            case 15: return "brick8";
+            case 19: return "brick9";
+            case 20: return "crate";
+            case 21: return "brick10";
+            case 22: return "brick11";
+            case 23: return "cobble";
+            case 24: return "cobble1";
+            case 25: return "switch1";
+            case 26: return "switch2";
+            case 27: return "switch3";
+            case 28: return "trig1";
+            case 29: return "trig2";
+            case 30: return "trig3";
+            case 31: return "ladder1";
+            case 32: return "rock1";
+            case 33: return "rock2";
+            case 34: return "rock3";
+            case 35: return "bush1";
+            case 36: return "shroom";
+            case 37: return "shroom2";
+            case 38: return "bottle1";
+            case 39: return "grass7";
+            case 40: return "grass6";
+            case 41: return "grass5";
+            case 42: return "grass3";
+            case 43: return "grass4";
+            case 44: return "log4";
+            case 45: return "flower1";
+            case 46: return "flower2";
+            case 47: return "flower3";
+            case 48: return "flower4";
+            case 49: return "back1";
+            case 50: return "back2";
+            case 51: return "back3";
+            case 52: return "back4";
+            case 53: return "back5";
+            case 54: return "back6";
+            case 55: return "back7";
+            case 56: return "back8";
+            case 57: return "back9";
+            case 58: return "skull1";
+            case 59: return "skull2";
+            case 60: return "chain1";
+            case 61: return "chain2";
+            case 62: return "gems";
+            case 63: return "tile";
+            case 100: return "cage";
+            case 101: return "walk1";
+            case 102: return "walk2";
+            case 103: return "walk3";
+            case 104: return "climb1";
+            case 105: return "climb2";
+            case 106: return "falls";
+            case 110: return "trig4";
+            case 111: return "trig5";
+            case 112: return "trig6";
+            default: return "Unknown";
+        }
+    }
+}
